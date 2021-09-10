@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/pkg/iostreams"
-	"github.com/cli/cli/v2/pkg/markdown"
-	"github.com/cli/cli/v2/utils"
+	"github.com/andrewhsu/cli/v2/api"
+	"github.com/andrewhsu/cli/v2/pkg/iostreams"
+	"github.com/andrewhsu/cli/v2/pkg/markdown"
+	"github.com/andrewhsu/cli/v2/utils"
 )
 
 type Comment interface {

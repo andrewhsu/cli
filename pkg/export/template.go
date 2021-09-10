@@ -11,9 +11,9 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/cli/cli/v2/pkg/iostreams"
-	"github.com/cli/cli/v2/pkg/text"
-	"github.com/cli/cli/v2/utils"
+	"github.com/andrewhsu/cli/v2/pkg/iostreams"
+	"github.com/andrewhsu/cli/v2/pkg/text"
+	"github.com/andrewhsu/cli/v2/utils"
 	"github.com/mgutz/ansi"
 )
 

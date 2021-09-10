@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cli/cli/v2/internal/run"
+	"github.com/andrewhsu/cli/v2/internal/run"
 )
 
 func setGitDir(t *testing.T, dir string) {

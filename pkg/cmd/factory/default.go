@@ -6,14 +6,14 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/context"
-	"github.com/cli/cli/v2/git"
-	"github.com/cli/cli/v2/internal/config"
-	"github.com/cli/cli/v2/internal/ghrepo"
-	"github.com/cli/cli/v2/pkg/cmd/extension"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/iostreams"
+	"github.com/andrewhsu/cli/v2/api"
+	"github.com/andrewhsu/cli/v2/context"
+	"github.com/andrewhsu/cli/v2/git"
+	"github.com/andrewhsu/cli/v2/internal/config"
+	"github.com/andrewhsu/cli/v2/internal/ghrepo"
+	"github.com/andrewhsu/cli/v2/pkg/cmd/extension"
+	"github.com/andrewhsu/cli/v2/pkg/cmdutil"
+	"github.com/andrewhsu/cli/v2/pkg/iostreams"
 )
 
 func New(appVersion string) *cmdutil.Factory {

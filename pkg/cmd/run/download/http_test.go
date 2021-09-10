@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cli/cli/v2/internal/ghrepo"
-	"github.com/cli/cli/v2/pkg/httpmock"
+	"github.com/andrewhsu/cli/v2/internal/ghrepo"
+	"github.com/andrewhsu/cli/v2/pkg/httpmock"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

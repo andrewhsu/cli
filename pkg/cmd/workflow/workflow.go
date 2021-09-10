@@ -1,12 +1,12 @@
 package workflow
 
 import (
-	cmdDisable "github.com/cli/cli/v2/pkg/cmd/workflow/disable"
-	cmdEnable "github.com/cli/cli/v2/pkg/cmd/workflow/enable"
-	cmdList "github.com/cli/cli/v2/pkg/cmd/workflow/list"
-	cmdRun "github.com/cli/cli/v2/pkg/cmd/workflow/run"
-	cmdView "github.com/cli/cli/v2/pkg/cmd/workflow/view"
-	"github.com/cli/cli/v2/pkg/cmdutil"
+	cmdDisable "github.com/andrewhsu/cli/v2/pkg/cmd/workflow/disable"
+	cmdEnable "github.com/andrewhsu/cli/v2/pkg/cmd/workflow/enable"
+	cmdList "github.com/andrewhsu/cli/v2/pkg/cmd/workflow/list"
+	cmdRun "github.com/andrewhsu/cli/v2/pkg/cmd/workflow/run"
+	cmdView "github.com/andrewhsu/cli/v2/pkg/cmd/workflow/view"
+	"github.com/andrewhsu/cli/v2/pkg/cmdutil"
 	"github.com/spf13/cobra"
 )
 

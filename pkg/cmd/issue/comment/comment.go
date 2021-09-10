@@ -4,11 +4,11 @@ import (
 	"net/http"
 
 	"github.com/MakeNowJust/heredoc"
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/internal/ghrepo"
-	issueShared "github.com/cli/cli/v2/pkg/cmd/issue/shared"
-	prShared "github.com/cli/cli/v2/pkg/cmd/pr/shared"
-	"github.com/cli/cli/v2/pkg/cmdutil"
+	"github.com/andrewhsu/cli/v2/api"
+	"github.com/andrewhsu/cli/v2/internal/ghrepo"
+	issueShared "github.com/andrewhsu/cli/v2/pkg/cmd/issue/shared"
+	prShared "github.com/andrewhsu/cli/v2/pkg/cmd/pr/shared"
+	"github.com/andrewhsu/cli/v2/pkg/cmdutil"
 	"github.com/spf13/cobra"
 )
 

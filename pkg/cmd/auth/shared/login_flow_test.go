@@ -8,10 +8,10 @@ import (
 	"testing"
 
 	"github.com/MakeNowJust/heredoc"
-	"github.com/cli/cli/v2/internal/run"
-	"github.com/cli/cli/v2/pkg/httpmock"
-	"github.com/cli/cli/v2/pkg/iostreams"
-	"github.com/cli/cli/v2/pkg/prompt"
+	"github.com/andrewhsu/cli/v2/internal/run"
+	"github.com/andrewhsu/cli/v2/pkg/httpmock"
+	"github.com/andrewhsu/cli/v2/pkg/iostreams"
+	"github.com/andrewhsu/cli/v2/pkg/prompt"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -2,10 +2,10 @@ package secret
 
 import (
 	"github.com/MakeNowJust/heredoc"
-	cmdList "github.com/cli/cli/v2/pkg/cmd/secret/list"
-	cmdRemove "github.com/cli/cli/v2/pkg/cmd/secret/remove"
-	cmdSet "github.com/cli/cli/v2/pkg/cmd/secret/set"
-	"github.com/cli/cli/v2/pkg/cmdutil"
+	cmdList "github.com/andrewhsu/cli/v2/pkg/cmd/secret/list"
+	cmdRemove "github.com/andrewhsu/cli/v2/pkg/cmd/secret/remove"
+	cmdSet "github.com/andrewhsu/cli/v2/pkg/cmd/secret/set"
+	"github.com/andrewhsu/cli/v2/pkg/cmdutil"
 	"github.com/spf13/cobra"
 )
 

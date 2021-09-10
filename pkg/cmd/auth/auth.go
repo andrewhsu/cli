@@ -1,12 +1,12 @@
 package auth
 
 import (
-	gitCredentialCmd "github.com/cli/cli/v2/pkg/cmd/auth/gitcredential"
-	authLoginCmd "github.com/cli/cli/v2/pkg/cmd/auth/login"
-	authLogoutCmd "github.com/cli/cli/v2/pkg/cmd/auth/logout"
-	authRefreshCmd "github.com/cli/cli/v2/pkg/cmd/auth/refresh"
-	authStatusCmd "github.com/cli/cli/v2/pkg/cmd/auth/status"
-	"github.com/cli/cli/v2/pkg/cmdutil"
+	gitCredentialCmd "github.com/andrewhsu/cli/v2/pkg/cmd/auth/gitcredential"
+	authLoginCmd "github.com/andrewhsu/cli/v2/pkg/cmd/auth/login"
+	authLogoutCmd "github.com/andrewhsu/cli/v2/pkg/cmd/auth/logout"
+	authRefreshCmd "github.com/andrewhsu/cli/v2/pkg/cmd/auth/refresh"
+	authStatusCmd "github.com/andrewhsu/cli/v2/pkg/cmd/auth/status"
+	"github.com/andrewhsu/cli/v2/pkg/cmdutil"
 	"github.com/spf13/cobra"
 )
 

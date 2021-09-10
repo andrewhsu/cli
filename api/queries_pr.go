@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cli/cli/v2/internal/ghinstance"
-	"github.com/cli/cli/v2/internal/ghrepo"
-	"github.com/cli/cli/v2/pkg/set"
+	"github.com/andrewhsu/cli/v2/internal/ghinstance"
+	"github.com/andrewhsu/cli/v2/internal/ghrepo"
+	"github.com/andrewhsu/cli/v2/pkg/set"
 	"github.com/shurcooL/githubv4"
 	"golang.org/x/sync/errgroup"
 )

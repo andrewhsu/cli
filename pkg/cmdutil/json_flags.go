@@ -10,10 +10,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cli/cli/v2/pkg/export"
-	"github.com/cli/cli/v2/pkg/iostreams"
-	"github.com/cli/cli/v2/pkg/jsoncolor"
-	"github.com/cli/cli/v2/pkg/set"
+	"github.com/andrewhsu/cli/v2/pkg/export"
+	"github.com/andrewhsu/cli/v2/pkg/iostreams"
+	"github.com/andrewhsu/cli/v2/pkg/jsoncolor"
+	"github.com/andrewhsu/cli/v2/pkg/set"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

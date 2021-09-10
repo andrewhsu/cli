@@ -14,9 +14,9 @@ import (
 	"strings"
 
 	"github.com/MakeNowJust/heredoc"
-	"github.com/cli/cli/v2/internal/config"
-	"github.com/cli/cli/v2/pkg/extensions"
-	"github.com/cli/cli/v2/pkg/findsh"
+	"github.com/andrewhsu/cli/v2/internal/config"
+	"github.com/andrewhsu/cli/v2/pkg/extensions"
+	"github.com/andrewhsu/cli/v2/pkg/findsh"
 	"github.com/cli/safeexec"
 )
 

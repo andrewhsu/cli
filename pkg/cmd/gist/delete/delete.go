@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/internal/config"
-	"github.com/cli/cli/v2/pkg/cmd/gist/shared"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/iostreams"
+	"github.com/andrewhsu/cli/v2/api"
+	"github.com/andrewhsu/cli/v2/internal/config"
+	"github.com/andrewhsu/cli/v2/pkg/cmd/gist/shared"
+	"github.com/andrewhsu/cli/v2/pkg/cmdutil"
+	"github.com/andrewhsu/cli/v2/pkg/iostreams"
 	"github.com/spf13/cobra"
 )
 

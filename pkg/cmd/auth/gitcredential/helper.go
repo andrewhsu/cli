@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/iostreams"
+	"github.com/andrewhsu/cli/v2/pkg/cmdutil"
+	"github.com/andrewhsu/cli/v2/pkg/iostreams"
 	"github.com/spf13/cobra"
 )
 

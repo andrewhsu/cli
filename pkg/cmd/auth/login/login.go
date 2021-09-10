@@ -9,12 +9,12 @@ import (
 
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/MakeNowJust/heredoc"
-	"github.com/cli/cli/v2/internal/config"
-	"github.com/cli/cli/v2/internal/ghinstance"
-	"github.com/cli/cli/v2/pkg/cmd/auth/shared"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/iostreams"
-	"github.com/cli/cli/v2/pkg/prompt"
+	"github.com/andrewhsu/cli/v2/internal/config"
+	"github.com/andrewhsu/cli/v2/internal/ghinstance"
+	"github.com/andrewhsu/cli/v2/pkg/cmd/auth/shared"
+	"github.com/andrewhsu/cli/v2/pkg/cmdutil"
+	"github.com/andrewhsu/cli/v2/pkg/iostreams"
+	"github.com/andrewhsu/cli/v2/pkg/prompt"
 	"github.com/spf13/cobra"
 )
 

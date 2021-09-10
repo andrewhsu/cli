@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/cli/cli/v2/internal/config"
-	"github.com/cli/cli/v2/pkg/cmd/gist/shared"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/httpmock"
-	"github.com/cli/cli/v2/pkg/iostreams"
-	"github.com/cli/cli/v2/pkg/prompt"
+	"github.com/andrewhsu/cli/v2/internal/config"
+	"github.com/andrewhsu/cli/v2/pkg/cmd/gist/shared"
+	"github.com/andrewhsu/cli/v2/pkg/cmdutil"
+	"github.com/andrewhsu/cli/v2/pkg/httpmock"
+	"github.com/andrewhsu/cli/v2/pkg/iostreams"
+	"github.com/andrewhsu/cli/v2/pkg/prompt"
 	"github.com/google/shlex"
 	"github.com/stretchr/testify/assert"
 )

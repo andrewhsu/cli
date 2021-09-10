@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/andrewhsu/graphql"
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/internal/ghinstance"
+	"github.com/andrewhsu/cli/v2/api"
+	"github.com/andrewhsu/cli/v2/internal/ghinstance"
 	"github.com/gabriel-vasile/mimetype"
 	"github.com/shurcooL/githubv4"
 )

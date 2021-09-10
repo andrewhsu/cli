@@ -6,10 +6,10 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/cli/cli/v2/context"
-	"github.com/cli/cli/v2/git"
-	"github.com/cli/cli/v2/internal/ghrepo"
-	"github.com/cli/cli/v2/pkg/httpmock"
+	"github.com/andrewhsu/cli/v2/context"
+	"github.com/andrewhsu/cli/v2/git"
+	"github.com/andrewhsu/cli/v2/internal/ghrepo"
+	"github.com/andrewhsu/cli/v2/pkg/httpmock"
 )
 
 func TestFind(t *testing.T) {

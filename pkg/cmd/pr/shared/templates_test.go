@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/cli/cli/v2/internal/ghrepo"
-	"github.com/cli/cli/v2/pkg/httpmock"
-	"github.com/cli/cli/v2/pkg/prompt"
+	"github.com/andrewhsu/cli/v2/internal/ghrepo"
+	"github.com/andrewhsu/cli/v2/pkg/httpmock"
+	"github.com/andrewhsu/cli/v2/pkg/prompt"
 	"github.com/stretchr/testify/assert"
 )
 

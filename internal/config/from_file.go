@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cli/cli/v2/internal/ghinstance"
+	"github.com/andrewhsu/cli/v2/internal/ghinstance"
 	"gopkg.in/yaml.v3"
 )
 

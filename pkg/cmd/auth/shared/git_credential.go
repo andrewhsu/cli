@@ -9,9 +9,9 @@ import (
 
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/MakeNowJust/heredoc"
-	"github.com/cli/cli/v2/git"
-	"github.com/cli/cli/v2/internal/run"
-	"github.com/cli/cli/v2/pkg/prompt"
+	"github.com/andrewhsu/cli/v2/git"
+	"github.com/andrewhsu/cli/v2/internal/run"
+	"github.com/andrewhsu/cli/v2/pkg/prompt"
 	"github.com/google/shlex"
 )
 

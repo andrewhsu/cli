@@ -7,12 +7,12 @@ import (
 	"regexp"
 
 	"github.com/MakeNowJust/heredoc"
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/context"
-	gitpkg "github.com/cli/cli/v2/git"
-	"github.com/cli/cli/v2/internal/ghrepo"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/iostreams"
+	"github.com/andrewhsu/cli/v2/api"
+	"github.com/andrewhsu/cli/v2/context"
+	gitpkg "github.com/andrewhsu/cli/v2/git"
+	"github.com/andrewhsu/cli/v2/internal/ghrepo"
+	"github.com/andrewhsu/cli/v2/pkg/cmdutil"
+	"github.com/andrewhsu/cli/v2/pkg/iostreams"
 	"github.com/spf13/cobra"
 )
 

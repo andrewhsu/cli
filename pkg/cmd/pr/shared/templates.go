@@ -8,12 +8,12 @@ import (
 
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/andrewhsu/graphql"
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/git"
-	"github.com/cli/cli/v2/internal/ghinstance"
-	"github.com/cli/cli/v2/internal/ghrepo"
-	"github.com/cli/cli/v2/pkg/githubtemplate"
-	"github.com/cli/cli/v2/pkg/prompt"
+	"github.com/andrewhsu/cli/v2/api"
+	"github.com/andrewhsu/cli/v2/git"
+	"github.com/andrewhsu/cli/v2/internal/ghinstance"
+	"github.com/andrewhsu/cli/v2/internal/ghrepo"
+	"github.com/andrewhsu/cli/v2/pkg/githubtemplate"
+	"github.com/andrewhsu/cli/v2/pkg/prompt"
 	"github.com/shurcooL/githubv4"
 )
 

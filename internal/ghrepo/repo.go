@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/cli/cli/v2/git"
-	"github.com/cli/cli/v2/internal/ghinstance"
+	"github.com/andrewhsu/cli/v2/git"
+	"github.com/andrewhsu/cli/v2/internal/ghinstance"
 )
 
 // Interface describes an object that represents a GitHub repository

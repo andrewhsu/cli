@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cli/cli/v2/pkg/iostreams"
+	"github.com/andrewhsu/cli/v2/pkg/iostreams"
 	"github.com/google/shlex"
 	"github.com/spf13/cobra"
 )

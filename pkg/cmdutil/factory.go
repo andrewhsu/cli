@@ -3,11 +3,11 @@ package cmdutil
 import (
 	"net/http"
 
-	"github.com/cli/cli/v2/context"
-	"github.com/cli/cli/v2/internal/config"
-	"github.com/cli/cli/v2/internal/ghrepo"
-	"github.com/cli/cli/v2/pkg/extensions"
-	"github.com/cli/cli/v2/pkg/iostreams"
+	"github.com/andrewhsu/cli/v2/context"
+	"github.com/andrewhsu/cli/v2/internal/config"
+	"github.com/andrewhsu/cli/v2/internal/ghrepo"
+	"github.com/andrewhsu/cli/v2/pkg/extensions"
+	"github.com/andrewhsu/cli/v2/pkg/iostreams"
 )
 
 type Browser interface {
