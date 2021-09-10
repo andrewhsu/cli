@@ -11,6 +11,7 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/andrewhsu/graphql"
 	"github.com/cli/cli/v2/api"
 	remotes "github.com/cli/cli/v2/context"
 	"github.com/cli/cli/v2/git"
@@ -19,7 +20,6 @@ import (
 	"github.com/cli/cli/v2/pkg/cmdutil"
 	"github.com/cli/cli/v2/pkg/set"
 	"github.com/shurcooL/githubv4"
-	"github.com/shurcooL/graphql"
 	"golang.org/x/sync/errgroup"
 )
 

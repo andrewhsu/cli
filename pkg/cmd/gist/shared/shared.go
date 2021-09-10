@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/andrewhsu/graphql"
 	"github.com/cli/cli/v2/api"
 	"github.com/cli/cli/v2/internal/ghinstance"
 	"github.com/gabriel-vasile/mimetype"
 	"github.com/shurcooL/githubv4"
-	"github.com/shurcooL/graphql"
 )
 
 type GistFile struct {

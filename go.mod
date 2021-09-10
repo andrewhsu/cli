@@ -5,6 +5,7 @@ go 1.16
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.1
 	github.com/MakeNowJust/heredoc v1.0.0
+	github.com/andrewhsu/graphql v0.0.0-20210910070558-0885735913b5
 	github.com/briandowns/spinner v1.11.1
 	github.com/charmbracelet/glamour v0.3.0
 	github.com/cli/browser v1.1.0
@@ -25,7 +26,7 @@ require (
 	github.com/muesli/reflow v0.2.1-0.20210502190812-c80126ec2ad5
 	github.com/muesli/termenv v0.8.1
 	github.com/shurcooL/githubv4 v0.0.0-20200928013246-d292edc3691b
-	github.com/shurcooL/graphql v0.0.0-20181231061246-d48a9a75455f
+	github.com/shurcooL/graphql v0.0.0-20200928012149-18c5c3165e3a // indirect
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/objx v0.1.1 // indirect
@@ -36,5 +37,3 @@ require (
 	golang.org/x/term v0.0.0-20210503060354-a79de5458b56
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 )
-
-replace github.com/shurcooL/graphql => github.com/cli/shurcooL-graphql v0.0.0-20200707151639-0f7232a2bf7e
